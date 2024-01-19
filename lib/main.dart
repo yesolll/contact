@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Container(
-              width: 200,
+              width: 200, // double.infinity ...
               height: 200,
               margin: const EdgeInsets.all(20),
               padding: const EdgeInsets.fromLTRB(30, 10, 0, 0),
