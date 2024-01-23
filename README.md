@@ -21,10 +21,15 @@
      <img src="https://github.com/yesolll/contact/assets/72201467/becf672f-6018-463d-a37e-6cc3b1449e98" width="25%">
    </p>
 
-3. Button Style
+4. AppBar
    1) leading <
    2) actions ★
    <p>
      <img src="https://github.com/yesolll/contact/assets/72201467/0c01fa72-6689-4a94-8a57-3acd201dc8b4" width="55%">
      <img src="https://github.com/yesolll/contact/assets/72201467/863f09bf-044b-40c0-9ef4-7943cf3f7e7d" width="25%">
+   </p>
+5. Task: Layout & Styling
+   <p>
+     <img src="https://github.com/yesolll/contact/assets/72201467/50d32dce-47c2-4c25-9f26-ac9b0e27a6ea" width="55%">
+     <img src="https://github.com/yesolll/contact/assets/72201467/923b872c-ed0e-4c37-8c42-b76796c49336" width="25%">
    </p>
