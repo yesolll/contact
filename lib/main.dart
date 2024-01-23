@@ -12,10 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amberAccent,
-          title: const Center(
-            child: Text('App'),
-          ),
+          backgroundColor: Colors.indigo,
+          title: const Text('App'),
+          leading: const Icon(Icons.navigate_before),
+          actions: const [
+            Icon(Icons.star), // ...
+          ],
         ),
         body: SizedBox(
           child: Row(
