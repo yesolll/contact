@@ -11,3 +11,12 @@
      <img src="https://github.com/yesolll/contact/assets/72201467/9dcc807b-69ec-4777-bbf6-f5f36c0bd246" width="55%">
      <img src="https://github.com/yesolll/contact/assets/72201467/1df751f3-d2e9-4e10-9f88-c24ed10e0d9d" width="25%">
    </p>
+
+3. Button Style
+   1) ElevatedButton
+   2) TextButton
+   3) IconButton
+   <p>
+     <img src="https://github.com/yesolll/contact/assets/72201467/e8585127-7f70-4daf-b6ef-b16caf53c686" width="55%">
+     <img src="https://github.com/yesolll/contact/assets/72201467/becf672f-6018-463d-a37e-6cc3b1449e98" width="25%">
+   </p>
