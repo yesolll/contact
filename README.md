@@ -20,3 +20,11 @@
      <img src="https://github.com/yesolll/contact/assets/72201467/e8585127-7f70-4daf-b6ef-b16caf53c686" width="55%">
      <img src="https://github.com/yesolll/contact/assets/72201467/becf672f-6018-463d-a37e-6cc3b1449e98" width="25%">
    </p>
+
+3. Button Style
+   1) leading <
+   2) actions ★
+   <p>
+     <img src="https://github.com/yesolll/contact/assets/72201467/0c01fa72-6689-4a94-8a57-3acd201dc8b4" width="55%">
+     <img src="https://github.com/yesolll/contact/assets/72201467/863f09bf-044b-40c0-9ef4-7943cf3f7e7d" width="25%">
+   </p>
