@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
           title: const Text('App'),
           leading: const Icon(Icons.navigate_before),
           actions: const [
-            Icon(Icons.star), // ...
+            Icon(Icons.star),
+            // ...
           ],
         ),
         body: SizedBox(
