@@ -17,33 +17,37 @@ class MyApp extends StatelessWidget {
             child: Text('App'),
           ),
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Container(
-              width: 200, // double.infinity ...
-              height: 200,
-              margin: const EdgeInsets.all(20),
-              padding: const EdgeInsets.fromLTRB(30, 10, 0, 0),
-              decoration: BoxDecoration(
-                color: Colors.orangeAccent,
-                border: Border.all(width: 10, color: Colors.black12),
-                borderRadius: BorderRadius.circular(50)
-              ),
-              child: const Text('아좌'),
-            ), Container(
-              width: 50,
-              height: 100,
-              margin: const EdgeInsets.all(20),
-              padding: const EdgeInsets.fromLTRB(5, 10, 0, 0),
-              decoration: BoxDecoration(
-                  color: Colors.orangeAccent,
-                  border: Border.all(width: 3, color: Colors.black12),
-                  borderRadius: BorderRadius.circular(50)
-              ),
-              child: const Text('아좌'),
-            )
-          ],
+        body: SizedBox(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              ElevatedButton(
+                onPressed: (){},
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.black),
+                ),
+                child: const Text('ElevatedButton'),
+              ), TextButton(
+                child: const Text('TextButton'),
+                onPressed: () {
+                  // Respond to button press
+                },
+              ), IconButton(
+                  onPressed: () {
+                    // Respond to button press
+                  }, icon: const Icon(Icons.accessibility),
+              )
+            ],
+          ),
+          // child: Text(
+          //   '텍스트',
+          //   style: TextStyle(
+          //       color: Color(0xff47a801), // Colors.green // fromRGBO
+          //       fontSize: 30,
+          //       fontWeight: FontWeight.w700,
+          //   ),
+          // ),
         ),
         bottomNavigationBar: const BottomAppBar(
           child: Row(
